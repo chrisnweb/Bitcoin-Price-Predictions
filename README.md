@@ -7,7 +7,7 @@
 
 #### Bitcoin (BTC) is the first decentralized digital currency and a payment system that was invented by an unknown person whose name is Satoshi Nakamoto from Japan, invented in 2008 and released it as open source software in 2009. 
 
-### My goal:
+### Goal:
 #### •	First, to collect the bitcoin raw tweets from Twitter for price prediction using sentiment analysis. Sentiment analysis is one of the hottest and trending topics in machine learning.
 #### •	Second, to collect the historical price data from Yahoo Finance and use a simple Neural Network to predict future prices of bitcoin for a short period of time. 
 
