@@ -17,7 +17,7 @@
 #### •	Long Short-Term memory (LSTM) network – It is a type of deep learning used for analysis of sequential data, i.e. time series data prediction. It is also a unit and a special kind of RNN. LSTM is explicitly designed to avoid the long-term dependency problem.
 
 #### Thus, we can say that RNN is more helping us in data processing predicting our next step whereas CNN helps us in visual analyzing.
-I have decided to use CNN + LSTM on the BTC tweets and RNN + LSTM on BTC historical price data.
+#### I have decided to use CNN + LSTM on the BTC tweets and RNN + LSTM on BTC historical price data.
 
 
 ### Load Packages
@@ -46,16 +46,16 @@ I have decided to use CNN + LSTM on the BTC tweets and RNN + LSTM on BTC histori
 #### 2.	Cleaned the tweets (text) with Stopwords and WordPunctTokenizer
 
 #### 3.	Visualization
-##### •	Word Cloud – Generated a word cloud use WordCloud python package.
-##### As expected, the “bitcoin” is one of the most frequent word shown in the tweets.
+ ##### •	Word Cloud – Generated a word cloud use WordCloud python package.
+ ##### As expected, the “bitcoin” is one of the most frequent word shown in the tweets.
 
 ##### •	Created a sentiment mood count with Countplot in Seaborn.
 
 ##### •	Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are classified as positive, and 268 tweets are classified as negative.
 
 #### 4.	Export the clean tweet data 
-##### •	Saved the clean tweets (text) as “cleaned_tweet_data.csv”
-###### o	Saved a final clean tweets data: “cleaned_tweet_data_05312020.csv”
+ ##### •	Saved the clean tweets (text) as “cleaned_tweet_data.csv”
+ ###### o	Saved a final clean tweets data: “cleaned_tweet_data_05312020.csv”
 
 
 ## Sentiment Analysis Prediction – CNN-LSTM
