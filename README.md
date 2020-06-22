@@ -1,6 +1,7 @@
 # Bitcoin-Price-Predictions
-# **Build Bitcoin Sentiment and Price Predictions Using Machine Learning/Deep Learning**
+## **Build Bitcoin Sentiment and Price Predictions Using Machine Learning/Deep Learning**
 
+```
 #### Disclaimer: All the information in this repository, README including the algorithm and Neural Network were provided and published for educational purpose only, not for investment nor investment advice. 
 
 ### Introduction/Description of project:
@@ -112,4 +113,5 @@
 
 #### stackoverflow.com (2017). How to plot confusion matrix correctly. https://stackoverflow.com/questions/44189119/how-to-plot-confusion-matrix-correctly. Last accessed: 2020-06-19
 
+```
 
