@@ -16,8 +16,8 @@
 * Recurrent Neural Network (RNN) – It is a class of artificial neural networks. RNN is used for analysis of sequential data, i.e. time series data prediction. It has proved to be one of the most powerful models for processing sequential data. 
 * Long Short-Term memory (LSTM) network – It is a type of deep learning used for analysis of sequential data, i.e. time series data prediction. It is also a unit and a special kind of RNN. LSTM is explicitly designed to avoid the long-term dependency problem.
 
-####Thus, we can say that RNN is more helping us in data processing predicting our next step whereas CNN helps us in visual analyzing.
-####I have decided to use CNN + LSTM on the BTC tweets and RNN + LSTM on BTC historical price data.
+Thus, we can say that RNN is more helping us in data processing predicting our next step whereas CNN helps us in visual analyzing.
+I have decided to use CNN + LSTM on the BTC tweets and RNN + LSTM on BTC historical price data.
 
 ### **Load Packages**
 Load all required python packages, i.e. TextBlob, WordCloud, stopwords, etc.
@@ -25,11 +25,9 @@ Load all required python packages, i.e. TextBlob, WordCloud, stopwords, etc.
 ### Collect BTC tweets
 #### (Refer to Jupyter Notebook file “bitcoin_tweets_download_05312020.ipynb”
 
-#### •	To collect the fresh raw tweets, I followed the example Tweet API from the previous class MSDS 600. 
-
-#### •	To restrict the topic on bitcoin, I filtered the word “bitcoin” only. I have collected 7895 raw tweets in total.
-
-#### •	Saved the raw tweets to csv file.
+* To collect the fresh raw tweets, I followed the example Tweet API from the previous class MSDS 600. 
+* To restrict the topic on bitcoin, I filtered the word “bitcoin” only. I have collected 7895 raw tweets in total.
+* Saved the raw tweets to csv file.
 
 ### Sentiment analysis on the raw tweets
 #### (Refer to Jupyter Notebook file “rawtweets_sentiment_05312020.ipynb”
