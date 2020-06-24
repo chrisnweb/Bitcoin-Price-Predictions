@@ -23,13 +23,13 @@ I have decided to use CNN + LSTM on the BTC tweets and RNN + LSTM on BTC histori
 Load all required python packages, i.e. TextBlob, WordCloud, stopwords, etc.
 
 ### Collect BTC tweets
-####(Refer to Jupyter Notebook file “bitcoin_tweets_download_05312020.ipynb”)####
+##### (Refer to Jupyter Notebook file “bitcoin_tweets_download_05312020.ipynb”)
 
 * To collect the fresh raw tweets, I followed the example Tweet API from the previous class MSDS 600. 
 * To restrict the topic on bitcoin, I filtered the word “bitcoin” only. I have collected 7895 raw tweets in total.
 * Saved the raw tweets to csv file.
 
-### Sentiment analysis on the raw tweets
+### **Sentiment analysis on the raw tweets**
 #### (Refer to Jupyter Notebook file “rawtweets_sentiment_05312020.ipynb”
 
 #### •	Generate the TextBlob package to obtain the polarity, sensitivity and sentiment. 
