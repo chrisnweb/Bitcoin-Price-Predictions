@@ -8,10 +8,10 @@
 #### Bitcoin (BTC) is the first decentralized digital currency and a payment system that was invented by an unknown person whose name is Satoshi Nakamoto from Japan, invented in 2008 and released it as open source software in 2009.
 
 ### **Goal**
-#### *	First, to collect the bitcoin raw tweets from Twitter for price prediction using sentiment analysis. Sentiment analysis is one of the hottest and trending topics in machine learning.
-#### * Second, to collect the historical price data from Yahoo Finance and use a simple Neural Network to predict future prices of bitcoin for a short period of time.
+*	First, to collect the bitcoin raw tweets from Twitter for price prediction using sentiment analysis. Sentiment analysis is one of the hottest and trending topics in machine learning.
+* Second, to collect the historical price data from Yahoo Finance and use a simple Neural Network to predict future prices of bitcoin for a short period of time.
 
-### The Neural Network methods used:
+### **The Neural Network methods used**
 #### •	Convolutional Neural Network (CNN) – It is a class of deep neural networks which is commonly applied visual imagery.
 #### •	Recurrent Neural Network (RNN) – It is a class of artificial neural networks. RNN is used for analysis of sequential data, i.e. time series data prediction. It has proved to be one of the most powerful models for processing sequential data. 
 #### •	Long Short-Term memory (LSTM) network – It is a type of deep learning used for analysis of sequential data, i.e. time series data prediction. It is also a unit and a special kind of RNN. LSTM is explicitly designed to avoid the long-term dependency problem.
