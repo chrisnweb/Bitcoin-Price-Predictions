@@ -3,7 +3,7 @@
 
 #### *Disclaimer: All the information in this repository, README including the algorithm and Neural Network were provided and published for educational purpose only, not for investment nor investment advice.*
 
-### Introduction/Description of project:
+### ***Introduction/Description of project***
 
 #### Bitcoin (BTC) is the first decentralized digital currency and a payment system that was invented by an unknown person whose name is Satoshi Nakamoto from Japan, invented in 2008 and released it as open source software in 2009. 
 
