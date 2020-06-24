@@ -56,10 +56,10 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
 
 ## Sentiment Analysis Prediction – CNN-LSTM
 
-**1. Data split – training and testing**
+1.   Data split – training and testing
      * 80% training data and 20 test data
 
-### 3.	Model
+3.	Model
 
 #### •	Build our neural network model with 1D-Convolution kernel and LSTM in Keras + add arguments embedding size and input length
 
