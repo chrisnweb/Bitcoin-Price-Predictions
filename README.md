@@ -72,7 +72,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
           - Filters are 32, kernel_size is 3, activation is ‘ReLU’ and set padding equal to ‘same”
           - 1D-MaxPooling is used after 1D-Conv
           - 96-unit LSTM is used for signal classification.
-          - Here, we also create additional input layer with num_classes split into 4 and 2 nodes (for better chance of success. We use ReLU activation and Dropout of 20% (this to prevent model from overfitting)	 
+          - Here, we also create additional input layer with num_classes split into 4 and 2 nodes (for better chance of success. We use ReLU activation and Dropout of 20% (this to prevent model from overfitting)     
           - Lastly, we add an output layer with num_classes and use softmax activation.
 
      • Compile the model
