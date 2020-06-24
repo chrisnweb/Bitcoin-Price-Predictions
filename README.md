@@ -30,24 +30,23 @@ Load all required python packages, i.e. TextBlob, WordCloud, stopwords, etc.
 * Saved the raw tweets to csv file.
 
 ### **Sentiment analysis on the raw tweets**
-#### (Refer to Jupyter Notebook file “rawtweets_sentiment_05312020.ipynb”
-
-#### •	Generate the TextBlob package to obtain the polarity, sensitivity and sentiment. 
+##### (Refer to Jupyter Notebook file “rawtweets_sentiment_05312020.ipynb”)
+Generate the TextBlob package to obtain the polarity, sensitivity and sentiment. 
 
 ### Pre-Processing – Exploratory Data Analysis (EDA)
-#### (Refer to Jupyter Notebook file “btctweets_pre-processing-05312020.ipynb”
+##### (Refer to Jupyter Notebook file “btctweets_pre-processing-05312020.ipynb”)
 
-#### 1.	Created and loaded the new csv file named “btctweets_05312020.csv” – Randomly used only 2020 (out of 7895) tweets with 6 columns (date_time, name, text, polarity, sensitivity and sentiment)
+1.	Created and loaded the new csv file named “btctweets_05312020.csv” – Randomly used only 2020 (out of 7895) tweets with 6 columns (date_time, name, text, polarity, sensitivity and sentiment)
 
-#### 2.	Cleaned the tweets (text) with Stopwords and WordPunctTokenizer
+2.	Cleaned the tweets (text) with Stopwords and WordPunctTokenizer
 
-#### 3.	Visualization
- ##### •	Word Cloud – Generated a word cloud use WordCloud python package.
- ##### As expected, the “bitcoin” is one of the most frequent word shown in the tweets.
+3.	Visualization
+   *	Word Cloud – Generated a word cloud use WordCloud python package.
+     As expected, the “bitcoin” is one of the most frequent word shown in the tweets.
 
-##### •	Created a sentiment mood count with Countplot in Seaborn.
+   * Created a senti ent mood count with Countplot in Seaborn.
 
-##### •	Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are classified as positive, and 268 tweets are classified as negative.
+   * Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are classified as positive, and 268 tweets are classified as negative.
 
 #### 4.	Export the clean tweet data 
  ##### •	Saved the clean tweets (text) as “cleaned_tweet_data.csv”
