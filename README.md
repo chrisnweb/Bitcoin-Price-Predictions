@@ -57,7 +57,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
 ## Sentiment Analysis Prediction – CNN-LSTM
 
 ### 1.	Dataset
-     • Loading the ‘cleaned tweet data” and converting it to a pandas dataframe.
+   • Loading the ‘cleaned tweet data” and converting it to a pandas dataframe.
 
 ### 2.	EDA
      • Plot/visualize the mood count
