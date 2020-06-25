@@ -20,7 +20,7 @@ Thus, we can say that RNN is more helping us in data processing predicting our n
 I have decided to use CNN + LSTM on the BTC tweets and RNN + LSTM on BTC historical price data.
 
 ### **Load Packages**
-Load all required python packages, i.e. TextBlob, WordCloud, stopwords, etc.
+Load all required python libraries/packages, i.e. TextBlob, WordCloud, NLTK stopwords, Keras, TensorFlow, etc.
 
 ### Collect BTC tweets
 ##### (Refer to Jupyter Notebook file “bitcoin_tweets_download_05312020.ipynb”)
