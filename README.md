@@ -81,9 +81,9 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    - Lastly, we use the ‘adam’ optimizer for training the network.        
 
 * Training the model                  
-     The epoch is set to 25. Since the dataset has 2020 samples (small size dataset), to be safe we are using a batch size of 64. 
-     (Note: I even have used batch size of 32.  It won’t make a huge difference for our problem)
-     The model training is done in one single method ‘fit’.
+  * The epoch is set to 25. Since the dataset has 2020 samples (small size dataset), to be safe we are using a batch size of 64. 
+     (Note: I even have used batch size of 32.  It won’t make a huge difference for our problem)         
+  * The model training is done in one single method ‘fit’.
  
 * Examining the performance 
    - The output test accuracy of 80%, is acceptable to us. What it means to us is that 20% of cases would not be classified correctly.
@@ -95,7 +95,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
                As you can see in the diagram, the accuracy increases rapidly in the first 8 epochs, indicating that the network is learning fast. The remaining curve are flattens indicating that not many epochs are required to train the model further.
 
 ### 4.	Prediction/Evaluation
-     • Confusion matrix is used to evaluate the quality of the output of classifier on the test set.
+   * Confusion matrix is used to evaluate the quality of the output of classifier on the test set.
 
 ### 5.	Results
    #### Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction result is good.
