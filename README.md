@@ -67,18 +67,18 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    * 80% training data and 20 test data
 
 ### 3.    Model
-   * Build our neural network model with 1D-Convolution kernel and LSTM in Keras + add arguments embedding size and input length.*
-          * We use 1D-Conv kernel to extract the information.
+  * Build our neural network model with 1D-Convolution kernel and LSTM in Keras + add arguments embedding size and input length.
+     * We use 1D-Conv kernel to extract the information.
           * Filters are 32, kernel_size is 3, activation is ‘ReLU’ and set padding equal to ‘same”
           * 1D-MaxPooling is used after 1D-Conv
           * 96-unit LSTM is used for signal classification.
           * Here, we also create additional input layer with num_classes split into 4 and 2 nodes (for better chance of success. We use ReLU activation and Dropout of 20% (this to prevent model from overfitting)     
           * Lastly, we add an output layer with num_classes and use softmax activation.
 
-     • Compile the model
-          - The loss parameter is specified as type ‘categorical_crossentropy’
-          - The metrics parameter is set to ‘accuracy’
-          - Lastly, we use the ‘adam’ optimizer for training the network.
+* Compile the model
+    - The loss parameter is specified as type ‘categorical_crossentropy’        
+    - The metrics parameter is set to ‘accuracy’       
+    - Lastly, we use the ‘adam’ optimizer for training the network.        
 
      • Training the model
           The epoch is set to 25. Since the dataset has 2020 samples (small size dataset), to be safe we are using a batch size of 64. 
