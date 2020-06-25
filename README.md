@@ -67,7 +67,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    * 80% training data and 20 test data
 
 ### 4.    Model
-  * **Build our neural network model with 1D-Convolution kernel and LSTM in Keras + add arguments embedding size and input length.       
+  * **Build our neural network model with 1D-Convolution kernel and LSTM in Keras + add arguments embedding size and input length.**       
      * We use 1D-Conv kernel to extract the information.         
      * Filters are 32, kernel_size is 3, activation is ‘ReLU’ and set padding equal to ‘same”       
      * 1D-MaxPooling is used after 1D-Conv        
@@ -75,17 +75,17 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
      * Here, we also create additional input layer with num_classes split into 4 and 2 nodes (for better chance of success. We use ReLU activation and Dropout of 20% (this to prevent model from overfitting)              
      * Lastly, we add an output layer with num_classes and use softmax activation.        
 
-* **Compile the model
+* **Compile the model**
    - The loss parameter is specified as type ‘categorical_crossentropy’        
    - The metrics parameter is set to ‘accuracy’       
    - Lastly, we use the ‘adam’ optimizer for training the network.        
 
-* **Training the model                  
+* **Training the model**                           
   * The epoch is set to 25. Since the dataset has 2020 samples (small size dataset), to be safe we are using a batch size of 64. 
      (Note: I even have used batch size of 32.  It won’t make a huge difference for our problem)         
   * The model training is done in one single method ‘fit’.
  
-* **Examining the performance 
+* **Examining the performance**          
    - The output test accuracy of 80%, is acceptable to us. What it means to us is that 20% of cases would not be classified correctly.
    - **Plotting loss metrics**
    ![lossmetrics](https://user-images.githubusercontent.com/37810695/85634831-feab7380-b641-11ea-971d-477b9f2b9c19.png)
