@@ -158,14 +158,14 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
 #### The BTC price prediction results are modestly good. If they are wrong, then it is to be expected because not anyone and no machine can correctly predict the future.
 
 
-### Conclusion
+## Conclusion
 
 #### I have created reasonable simple models. CNN + LSTM and RNN + LSTM are great architectures that we can use to analyze and predict time-series information. The results for both models (tweets and price data) are better than I expected. Just imagine that we can use more input layers (more kinds of input), more arguments, more epochs, more batch size, and fine tune the parameters. Plus, I believe with more tweaking both models can be improved. Also, more checks and studies can be performed.
 
 #### Predicting the future of cryptocurrencies are not easy. There are no experts or analysts that could make such predictions. Especially in the case with cryptocurrency like Bitcoin, I have found that the best analyst and price prediction expert is ‘you’.
 
 
-### Questions to improve learning
+## Questions to improve learning
 
 #### *Are the prediction results good?*
 ##### Based on the BTC Price Prediction plot, it looks relatively good, does not look bad at all. Even though the patterns (actual BTC prices and predicted BTC prices) match fairly closely, the results are still apart from each other. Therefore, we need to further expand and develop the code to get better results.
