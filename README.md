@@ -101,7 +101,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
 Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction result is good.          
 Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are classified as positive, and 268 tweets are classified as negative. 13% are negative while 39% are positive. There are more positive than negative. Based on this sentiment results on the tweets, we can predict that the BTC price will go up in the near future.
 
-## **********
+## ********************************
 ## BTC Price Prediction – RNN-LSTM
 
 ### The steps to modeling RNN-LSTM are as follows:
@@ -113,20 +113,18 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
 #### 3.	Build the model – Train and test the model with the optimized parameters
 #### 4.	Forecasting/Predicting the future prices
 
+### Dataset overview
+ * Our dataset comes from [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD?p=BTC-USD) We downloaded and saved as an csv file. It covered historical data from 2014-11-20 to 2020-05-31. 
+ * We loaded the data and converting it to a pandas dataframe.
+ * The data is quite simple as it contains the date, open, high, low, close, adj_close, and volume.
+ * We mainly used the “Close” price for the model.
+ * Before building the model, we performed a data pre-processing.
 
-Dataset overview
-•	Our dataset comes from Yahoo Finance. We downloaded and saved as an csv file. It covered historical data from 2014-11-20 to 2020-05-31. 
-•	We loaded the data and converting it to a pandas dataframe.
-•	The data is quite simple as it contains the date, open, high, low, close, adj_close, and volume.
-•	We mainly used the “Close” price for the model.
-•	Before building the model, we performed a data pre-processing.
-
-Data pre-processing/preparation
-
-•	Data splitting
--	Creating a 60-days prediction
--	Splitting into train and test set
-
+### Data pre-processing/preparation
+* Data splitting
+  - Creating a 60-days prediction
+  - Splitting into train and test set
+ 
 •	Data scaling
 -	Scale the dataset because LSTM models are scale sensitive
 -	We use the MinMaxScaler from scikit learn
