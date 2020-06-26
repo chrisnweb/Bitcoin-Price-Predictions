@@ -89,10 +89,10 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    - The output test accuracy of 80%, is acceptable to us. What it means to us is that 20% of cases would not be classified correctly.
    - **Plotting loss metrics**
    ![](https://github.com/chrisnweb/Bitcoin-Price-Predictions/blob/master/Images/lossmetrics.png)
-   ![lossmetrics](https://user-images.githubusercontent.com/37810695/85634831-feab7380-b641-11ea-971d-477b9f2b9c19.png)
                As you can see in the diagram, the loss on the training set decreases rapidly in the first 8 epochs. The loss on the        validation decrease slightly in the first 6 epochs and increase rapidly on the next 6 epochs.  
+               
    - **Plotting accuracy metrics**
-   ![accmetrics](https://user-images.githubusercontent.com/37810695/85634889-34e8f300-b642-11ea-99c1-2f2a85c212a1.png)
+   ![](https://github.com/chrisnweb/Bitcoin-Price-Predictions/blob/master/Images/accmetrics.png)
                As you can see in the diagram, the accuracy increases rapidly in the first 8 epochs, indicating that the network is learning fast. The remaining curve are flattens indicating that not many epochs are required to train the model further.
 
 ### 5.	Prediction/Evaluation
@@ -152,7 +152,7 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
 
 ### Predicting the future price
 * After 50 epochs, the model is trained and can be used to forecast/predict future prices. We input the last 60 days of ‘Close’ prices in our model.predict() method to predict future prices for the next 60 days.
-
+![](https://github.com/chrisnweb/Bitcoin-Price-Predictions/blob/master/Images/btcpredictiongraph.png)
  
 ### Result
 
