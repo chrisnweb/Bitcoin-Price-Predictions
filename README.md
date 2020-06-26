@@ -187,7 +187,11 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
 
 #### stackoverflow.com (2017). How to plot confusion matrix correctly. https://stackoverflow.com/questions/44189119/how-to-plot-confusion-matrix-correctly. Last accessed: 2020-06-19
 
-#### Keras.io, Conv1D layer, https://keras.io/api/layers/convolution_layers/convolution1d/, June 19, 2020
+#### Keras.io, Conv1D layer, https://keras.io/api/layers/convolution_layers/convolution1d/, June 14, 2020
+
+#### scikit-learn.org, MinMaxScaler, https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html, June 14, 2020
+
+#### twitter.com, #Bitcoin, https://twitter.com/search?q=%23Bitcoin, May 31, 2020
 
 #### finance.yahoo.com, Bitcoin USD (BTC-USD), https://finance.yahoo.com/quote/BTC-USD?p=BTC-USD, May 31, 2020
 
