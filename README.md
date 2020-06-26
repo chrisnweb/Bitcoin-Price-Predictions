@@ -167,10 +167,10 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
 
 ### Questions to improve learning
 
-### *Are the prediction results good?*
+#### *Are the prediction results good?*
 #### Based on the BTC Price Prediction plot, it looks relatively good, does not look bad at all. Even though the patterns (actual BTC prices and predicted BTC prices) match fairly closely, the results are still apart from each other. Therefore, we need to further expand and develop the code to get better results.
 
-### *What can be done differently and continue to add to the project?*
+#### *What can be done differently and continue to add to the project?*
 #### 1.	Merge the 2 datasets: Historical price data and tweet data
 #### 2.	Have more data (much larger tweets and historical prices data)
 #### 3.	There are many more time series models to learn and experiment. Beside the CNN, RNN and LSTM, run additional neural network models and carry out some statistical tests on the data.
