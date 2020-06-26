@@ -114,7 +114,7 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
 #### 4.	Forecasting/Predicting the future prices
 
 ### Dataset overview
- * Our dataset comes from [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD?p=BTC-USD) We downloaded and saved as an csv file. It covered historical data from 2014-11-20 to 2020-05-31. 
+ * Our dataset comes from [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD?p=BTC-USD). We downloaded and saved as an csv file. It covered historical data from 2014-11-20 to 2020-05-31. 
  * We loaded the data and converting it to a pandas dataframe.
  * The data is quite simple as it contains the date, open, high, low, close, adj_close, and volume.
  * We mainly used the “Close” price for the model.
@@ -125,12 +125,10 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
   - Creating a 60-days prediction
   - Splitting into train and test set
  
-•	Data scaling
--	Scale the dataset because LSTM models are scale sensitive
--	We use the MinMaxScaler from scikit learn
-
-	 	 	 
-	
+* Data scaling
+  - Scale the dataset because LSTM models are scale sensitive
+  - We use the MinMaxScaler from scikit learn
+ 	 	 	
 •	Reshape the data
 -	Reshape on the train data to give a new shape (without changing data) for the model.
 
