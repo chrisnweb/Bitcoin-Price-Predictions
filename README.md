@@ -129,20 +129,16 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
   - Scale the dataset because LSTM models are scale sensitive
   - We use the MinMaxScaler from scikit learn
  	 	 	
-•	Reshape the data
--	Reshape on the train data to give a new shape (without changing data) for the model.
+* Reshape the data
+  - Reshape on the train data to give a new shape (without changing data) for the model.
 
- 
-
-Build the model 
-
-•	To begin, we start with Sequential model. Our Sequential model will have one input layer and one output layer.
-
-•	The input layer in our network:
--	The first layer is the LSTM layer (to create our RNN)
--	The first argument is the number of nodes, which is set as 100.
--	Applies the ‘sigmoid’ activation function
--	Include the ‘input_shape’ for LSTM network. This is added so that the network knows what shape to expect.
+### Build the model 
+* To begin, we start with Sequential model. Our Sequential model will have one input layer and one output layer.
+* The input layer in our network:
+  - The first layer is the LSTM layer (to create our RNN)
+  - The first argument is the number of nodes, which is set as 100.
+  - Applies the ‘sigmoid’ activation function
+  - Include the ‘input_shape’ for LSTM network. This is added so that the network knows what shape to expect.
 
 •	We used Dropout with a rate of 20% to combat overfitting.
 •	Our final layer is the densely connected NN output with one neuron and with ‘linear’ activation function.
