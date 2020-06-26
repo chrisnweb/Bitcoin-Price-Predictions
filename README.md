@@ -101,6 +101,91 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
 Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction result is good.          
 Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are classified as positive, and 268 tweets are classified as negative. 13% are negative while 39% are positive. There are more positive than negative. Based on this sentiment results on the tweets, we can predict that the BTC price will go up in the near future.
 
+## **********
+## BTC Price Prediction – RNN-LSTM
+
+### The steps to modeling RNN-LSTM are as follows:
+#### 1.	Gathering and visualizing BTC historical data.
+#### 2.	Data pre-processing/preparation
+   * Data splitting – Training and testing (encode the date, split data, process data)
+   * Data scaling
+   * Reshape the data for the model
+#### 3.	Build the model – Train and test the model with the optimized parameters
+#### 4.	Forecasting/Predicting the future prices
+
+
+Dataset overview
+•	Our dataset comes from Yahoo Finance. We downloaded and saved as an csv file. It covered historical data from 2014-11-20 to 2020-05-31. 
+•	We loaded the data and converting it to a pandas dataframe.
+•	The data is quite simple as it contains the date, open, high, low, close, adj_close, and volume.
+•	We mainly used the “Close” price for the model.
+•	Before building the model, we performed a data pre-processing.
+
+Data pre-processing/preparation
+
+•	Data splitting
+-	Creating a 60-days prediction
+-	Splitting into train and test set
+
+•	Data scaling
+-	Scale the dataset because LSTM models are scale sensitive
+-	We use the MinMaxScaler from scikit learn
+
+	 	 	 
+	
+•	Reshape the data
+-	Reshape on the train data to give a new shape (without changing data) for the model.
+
+ 
+
+Build the model 
+
+•	To begin, we start with Sequential model. Our Sequential model will have one input layer and one output layer.
+
+•	The input layer in our network:
+-	The first layer is the LSTM layer (to create our RNN)
+-	The first argument is the number of nodes, which is set as 100.
+-	Applies the ‘sigmoid’ activation function
+-	Include the ‘input_shape’ for LSTM network. This is added so that the network knows what shape to expect.
+
+•	We used Dropout with a rate of 20% to combat overfitting.
+•	Our final layer is the densely connected NN output with one neuron and with ‘linear’ activation function.
+•	We compiled the model using ‘Adam’ (Adaptive moment estimation) as the optimizer and ‘Mean Squared Error’ as the loss function.
+•	Finally, we can do the fit/train to our RNN model.
+-	The X_train and y_train are the variables (Close prices) we assigned to our BTC historical price data.
+-	Epochs are the number of times the NN will train over the dataset. We use 50 epochs.
+-	Batch size is the number of samples within the training set from the model. We use 10 batch_sizes.
+
+
+Predicting the future price
+•	After 50 epochs, the model is trained and can be used to forecast/predict future prices. We input the last 60 days of ‘Close’ prices in our model.predict() method to predict future prices for the next 60 days.
+
+ 
+
+Result
+
+The BTC price prediction results are modestly good. If they are wrong, then it is to be expected because not anyone and no machine can correctly predict the future.
+
+
+Conclusion
+
+I have created reasonable simple models. CNN + LSTM and RNN + LSTM are great architectures that we can use to analyze and predict time-series information. The results for both models (tweets and price data) are better than I expected. Just imagine that we can use more input layers (more kinds of input), more arguments, more epochs, more batch size, and fine tune the parameters.
+
+Predicting the future of cryptocurrencies are not easy. There are no experts or analysts that could make such predictions. Especially in the case with cryptocurrency like Bitcoin, I have found that the best analyst and price prediction expert is ‘you’.
+
+
+Questions to improve learning
+
+Are the prediction results good?
+Based on the BTC Price Prediction plot, it looks relatively good, does not look bad at all. Even though the patterns (actual BTC prices and predicted BTC prices) match fairly closely, the results are still apart from each other. Therefore, we need to further expand and develop the code to get better results.
+
+What can be done differently and continue to add to the project?
+1.	Merge the 2 datasets: Historical price data and tweet data
+2.	Have more data (much larger tweets and historical prices data)
+3.	There are many more time series models to learn and experiment. Beside the CNN, RNN and LSTM, run additional neural network models and carry out some statistical tests on the data.
+
+
+CHEERIOS!
 
 ## Reference Sources
 
