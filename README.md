@@ -168,23 +168,23 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
 ### Questions to improve learning
 
 #### *Are the prediction results good?*
-#### Based on the BTC Price Prediction plot, it looks relatively good, does not look bad at all. Even though the patterns (actual BTC prices and predicted BTC prices) match fairly closely, the results are still apart from each other. Therefore, we need to further expand and develop the code to get better results.
+##### Based on the BTC Price Prediction plot, it looks relatively good, does not look bad at all. Even though the patterns (actual BTC prices and predicted BTC prices) match fairly closely, the results are still apart from each other. Therefore, we need to further expand and develop the code to get better results.
 
 #### *What can be done differently and continue to add to the project?*
-#### 1.	Merge the 2 datasets: Historical price data and tweet data
-#### 2.	Have more data (historical prices data from other cryptocurrency websites and much larger tweets)
-#### 3.	There are many more time series models to learn and experiment. Beside the CNN, RNN and LSTM, run additional neural network models and carry out some statistical tests on the data.
+##### 1.	Merge the 2 datasets: Historical price data and tweet data
+##### 2.	Have more data (historical prices data from other cryptocurrency websites and much larger tweets)
+##### 3.	There are many more time series models to learn and experiment. Beside the CNN, RNN and LSTM, run additional neural network models and carry out some statistical tests on the data.
 
 
 ## **CHEERIOS!**
 
 ## Reference and Resource
 
-#### Irene Lui. 2018. Twitter-US-Airline-Sentiment_J2D_Project_Python. https://github.com/ireneliu521/Twitter-US-Airline-Sentiment_J2D_Project_Python/blob/master/Twitter%20US%20Airline%20Sentiment.ipynb. (2020).
+##### Irene Lui. 2018. Twitter-US-Airline-Sentiment_J2D_Project_Python. https://github.com/ireneliu521/Twitter-US-Airline-Sentiment_J2D_Project_Python/blob/master/Twitter%20US%20Airline%20Sentiment.ipynb. (2020).
 
-#### Omer Berat Sezer. 2018. LSTM_RNN_Tutorials_with_Demo. https://github.com/omerbsezer/LSTM_RNN_Tutorials_with_Demo. (2020)
+##### Omer Berat Sezer. 2018. LSTM_RNN_Tutorials_with_Demo. https://github.com/omerbsezer/LSTM_RNN_Tutorials_with_Demo. (2020)
 
-#### stackoverflow.com (2017). How to plot confusion matrix correctly. https://stackoverflow.com/questions/44189119/how-to-plot-confusion-matrix-correctly. Last accessed: 2020-06-19
+##### stackoverflow.com (2017). How to plot confusion matrix correctly. https://stackoverflow.com/questions/44189119/how-to-plot-confusion-matrix-correctly. Last accessed: 2020-06-19
 
 ```
 
