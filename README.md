@@ -173,7 +173,7 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
 
 #### *What can be done differently and continue to add to the project?*
 ##### 1.	Merge the 2 datasets: Historical price data and tweet data
-##### 2.	Have more data (historical prices data from other cryptocurrency websites and much larger tweets)
+##### 2.	Have more data (historical prices data from other crypto financial/exchange websites and much larger tweets)
 ##### 3.	There are many more time series models to learn and experiment. Beside the CNN, RNN and LSTM, run additional neural network models and carry out some statistical tests on the data.
 
 
