@@ -180,11 +180,11 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
 
 ## Reference and Resource
 
-##### Irene Lui. 2018. Twitter-US-Airline-Sentiment_J2D_Project_Python. https://github.com/ireneliu521/Twitter-US-Airline-Sentiment_J2D_Project_Python/blob/master/Twitter%20US%20Airline%20Sentiment.ipynb. (2020).
+#### Irene Lui. 2018. Twitter-US-Airline-Sentiment_J2D_Project_Python. https://github.com/ireneliu521/Twitter-US-Airline-Sentiment_J2D_Project_Python/blob/master/Twitter%20US%20Airline%20Sentiment.ipynb. (2020).
 
-##### Omer Berat Sezer. 2018. LSTM_RNN_Tutorials_with_Demo. https://github.com/omerbsezer/LSTM_RNN_Tutorials_with_Demo. (2020)
+#### Omer Berat Sezer. 2018. LSTM_RNN_Tutorials_with_Demo. https://github.com/omerbsezer/LSTM_RNN_Tutorials_with_Demo. (2020)
 
-##### stackoverflow.com (2017). How to plot confusion matrix correctly. https://stackoverflow.com/questions/44189119/how-to-plot-confusion-matrix-correctly. Last accessed: 2020-06-19
+#### stackoverflow.com (2017). How to plot confusion matrix correctly. https://stackoverflow.com/questions/44189119/how-to-plot-confusion-matrix-correctly. Last accessed: 2020-06-19
 
 ```
 
