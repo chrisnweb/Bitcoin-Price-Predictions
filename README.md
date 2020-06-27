@@ -104,7 +104,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    * Confusion matrix is used to evaluate the quality of the output of classifier on the test set.
 
 ### 7.	Results
-Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction result is good.          
+Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction/evaluation result is good.          
 Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are classified as positive, and 268 tweets are classified as negative. 13% are negative while 39% are positive. There are more positive than negative. Based on this sentiment results on the tweets, we can predict that the BTC price will go up in the near future.
 
 ## ********************************
