@@ -101,7 +101,10 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
                As you can see in the diagram, the accuracy increases rapidly in the first 8 epochs, indicating that the network is learning fast. The remaining curve are flattens indicating that not many epochs are required to train the model further.
 
 ### 6.	Prediction/Evaluation
-   * Confusion matrix is used to evaluate the quality of the output of classifier on the test set.
+   * Confusion matrix is used to evaluate the quality of the output of model classifier.
+   * Run a predict class with “model.predict_classes” on the test set.
+   * Calculate the confusion matrix, precision, and f1-score
+
 
 ### 7.	Results
 Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction/evaluation result is good.          
