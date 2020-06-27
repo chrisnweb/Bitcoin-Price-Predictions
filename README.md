@@ -68,8 +68,8 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    * 80% training data and 20 test data
 
 ### 4.	Tokenize 
+   * The tokenize can help us build a NN model based on words.
    * Tokenize the text with ‘text_to_sequences’.
-   * The tokenize could help us build a NN model based on words.
 
 ### 5.    Model
   * **Build our neural network model with 1D-Convolution kernel and LSTM in Keras + add arguments embedding size and input length.**       
