@@ -61,6 +61,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
 
 ### 2.	EDA
    * Plot/visualize the mood count
+   * Text length
    * Visualization with WordClould: neutral, positive and negative sentiment.
 
 ### 3.    Data split – training and testing ###
