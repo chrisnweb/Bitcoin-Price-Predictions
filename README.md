@@ -85,7 +85,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    - The metrics parameter is set to ‘accuracy’       
    - Lastly, we use the ‘adam’ optimizer for training the network.        
 
-* **Training the model**                           
+* **Fitting/Training the CNN model**                           
   * The epoch is set to 25. Since the dataset has 2020 samples (small size dataset), to be safe we are using a batch size of 64. 
      (Note: I even have used batch size of 32.  It won’t make a huge difference for our problem)         
   * The model training is done in one single method ‘fit’.
