@@ -67,7 +67,11 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
 ### 3.    Data split – training and testing ###
    * 80% training data and 20 test data
 
-### 4.    Model
+### 4.	Tokenize 
+   * Tokenize the text with ‘text_to_sequences’.
+   * The tokenize could help us build a NN model based on words.
+
+### 5.    Model
   * **Build our neural network model with 1D-Convolution kernel and LSTM in Keras + add arguments embedding size and input length.**       
      * We use 1D-Conv kernel to extract the information.         
      * Filters are 32, kernel_size is 3, activation is ‘ReLU’ and set padding equal to ‘same”       
@@ -96,10 +100,10 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    ![](https://github.com/chrisnweb/Bitcoin-Price-Predictions/blob/master/Images/accmetrics.png)
                As you can see in the diagram, the accuracy increases rapidly in the first 8 epochs, indicating that the network is learning fast. The remaining curve are flattens indicating that not many epochs are required to train the model further.
 
-### 5.	Prediction/Evaluation
+### 6.	Prediction/Evaluation
    * Confusion matrix is used to evaluate the quality of the output of classifier on the test set.
 
-### 6.	Results
+### 7.	Results
 Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction result is good.          
 Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are classified as positive, and 268 tweets are classified as negative. 13% are negative while 39% are positive. There are more positive than negative. Based on this sentiment results on the tweets, we can predict that the BTC price will go up in the near future.
 
