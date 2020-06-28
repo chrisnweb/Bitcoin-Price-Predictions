@@ -104,7 +104,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    * Confusion matrix is used to evaluate the quality of the output of model classifier.
    * Run a predict class with “model.predict_classes” on the test set.
    * Calculate the confusion matrix, precision, and f1-score
-<img src="Images/confusionmatrix.PNG" width="100">
+<img src="Images/confusionmatrix.PNG" width="300">
 
 ### 7.	Results
 Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction/evaluation result is good.          
