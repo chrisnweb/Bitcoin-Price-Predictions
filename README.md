@@ -104,7 +104,7 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
    * Confusion matrix is used to evaluate the quality of the output of model classifier.
    * Run a predict class with “model.predict_classes” on the test set.
    * Calculate the confusion matrix, precision, and f1-score
-
+![](https://github.com/chrisnweb/Bitcoin-Price-Predictions/blob/master/Images/lossmetrics.png)
 
 ### 7.	Results
 Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction/evaluation result is good.          
@@ -136,7 +136,7 @@ Out of the 2020 tweets, 964 tweets are classified as neutral, 788 tweets are cla
  
 * Data scaling
   - Scale the dataset because LSTM models are scale sensitive
-  - We use the MinMaxScaler from scikit learn
+  - We use the MinMaxScaler from [scikit learn](https://scikit-learn.org/stable/index.html)
  	 	 	
 * Reshape the data
   - Reshape on the train data to give a new shape (without changing data) for the model.
