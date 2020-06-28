@@ -93,18 +93,18 @@ Generate the TextBlob package to obtain the polarity, sensitivity and sentiment.
 * **Examining the performance**          
    - The output test accuracy of 80%, is acceptable to us. What it means to us is that 20% of cases would not be classified correctly.
    - **Plotting loss metrics**
-    <img src="Images/lossmetrics.png" width="300">
+    <img src="Images/lossmetrics.png" width="400">
                As you can see in the diagram, the loss on the training set decreases rapidly in the first 8 epochs. The loss on the        validation decrease slightly in the first 6 epochs and increase rapidly on the next 6 epochs.  
                
    - **Plotting accuracy metrics**
-   <img src="Images/accuracymetrics.png" width="300">
+   <img src="Images/accmetrics.png" width="400">
                As you can see in the diagram, the accuracy increases rapidly in the first 8 epochs, indicating that the network is learning fast. The remaining curve are flattens indicating that not many epochs are required to train the model further.
 
 ### 6.	Prediction/Evaluation
    * Confusion matrix is used to evaluate the quality of the output of model classifier.
    * Run a predict class with “model.predict_classes” on the test set.
    * Calculate the confusion matrix, precision, and f1-score
-     <img src="Images/confusionmatrix.PNG" width="300">
+ <img src="Images/confusionmatrix.PNG" width="300">
 
 ### 7.	Results
 Training model shows 80% and confusion matrix on the test set is also shows 80% accuracy. It means the confusion matrix is showing good performance. The prediction/evaluation result is good.          
